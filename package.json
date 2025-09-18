@@ -1,0 +1,27 @@
+{
+  "name": "expressjs-platforma",
+  "version": "1.0.0",
+  "description": "Ovo je moj prvi node projekt u kojem koristim ExpressJS platformu.",
+  "keywords": [
+    "osnove",
+    "express"
+  ],
+  "homepage": "https://github.com/tojaku-classroom/expressjs-platforma#readme",
+  "bugs": {
+    "url": "https://github.com/tojaku-classroom/expressjs-platforma/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tojaku-classroom/expressjs-platforma.git"
+  },
+  "license": "ISC",
+  "author": "TJ",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
