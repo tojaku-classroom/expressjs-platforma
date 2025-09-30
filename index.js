@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, 'views'));
 const port = 3000;
 
 app.get('/', (request, response) => {
-    response.render('home', {name: 'Tomislav'});
+    response.render('home', {name: 'Ivan'});
 });
 
 app.listen(port, () => {
