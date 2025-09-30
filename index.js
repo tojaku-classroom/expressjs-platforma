@@ -21,6 +21,14 @@ app.get('/', (request, response) => {
     response.render('home', {name: 'Ivan'});
 });
 
+app.get('/about', (request, response) => {
+    response.render('about');
+});
+
+app.get('/contact', (request, response) => {
+    response.render('contact');
+});
+
 app.listen(port, () => {
     console.log('Spreman sam!');
 });
