@@ -1,21 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industrija</title>
+    <style>
+        /* CSS Pravilo */
+        .brand {
+            /* <- selektor */
+            background-color: rgb(75, 183, 197);
+            padding: 10px;
+            margin: 50px;
+            border: 5px solid rgb(255, 75, 16);
+            color: white;
+        }
+
+        .large {
+            font-size: 3em;
+        }
+
+        #nav {
+            color: rgb(255, 75, 16);
+            font-size: 1.25em;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;
+        }
+
+        #nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #nav a:hover {
+            color: crimson;
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
     <center>
-        <h1>Industrija d.o.o.</h1>
+        <h1 class="brand large">Industrija d.o.o.</h1>
     </center>
     <center>
-        <div>
+        <div id="nav" class="brand">
             <a href="/">Naslovnica</a> |
             <a href="/about">O nama</a> |
-            <a href="/contact">Kontakt</a>
+            <a href="/contact">Kontakt</a> |
+            <a href="https://www.google.com" target="_blank">Traži</a>
         </div>
     </center>
     {{{body}}}
 </body>
+
 </html>
